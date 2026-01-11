@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn - Online Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>EduLearn</h2>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#subjects" class="nav-link">Subjects</a></li>
+                <li><a href="#videos" class="nav-link">Video Learning</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li><a href="#" class="nav-link login-btn" id="loginBtn">Student Login</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Learn Anytime, Anywhere</h1>
+                <p>Transform your future with our comprehensive online courses. Join thousands of students learning new skills every day.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Explore Courses</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About EduLearn</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Empowering Education for Everyone</h3>
+                    <p>EduLearn is a leading online learning platform dedicated to providing high-quality education to students worldwide. Our mission is to make learning accessible, engaging, and effective for everyone.</p>
+                    <p>With expert instructors, interactive content, and a supportive community, we help you achieve your learning goals and advance your career.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>50K+</h4>
+                            <p>Students</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>500+</h4>
+                            <p>Courses</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>100+</h4>
+                            <p>Instructors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=400&h=300&fit=crop" alt="Students learning together">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2 class="section-title">Popular Courses</h2>
+            <div class="course-grid">
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=400&h=250&fit=crop" alt="Web Development">
+                        <span class="course-badge">Beginner</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Web Development Bootcamp</h3>
+                        <p>Learn HTML, CSS, JavaScript and build real-world projects</p>
+                        <div class="course-meta">
+                            <span>⏱ 40 hours</span>
+                            <span>👥 2.5K students</span>
+                        </div>
+                        <button class="btn btn-primary">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop" alt="Data Science">
+                        <span class="course-badge">Intermediate</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Data Science & Analytics</h3>
+                        <p>Master data analysis, visualization and machine learning</p>
+                        <div class="course-meta">
+                            <span>⏱ 60 hours</span>
+                            <span>👥 1.8K students</span>
+                        </div>
+                        <button class="btn btn-primary">Enroll Now</button>
+                    </div>
+                </div>
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=400&h=250&fit=crop" alt="Cloud Computing">
+                        <span class="course-badge">Advanced</span>
+                    </div>
+                    <div class="course-content">
+                        <h3>Cloud Computing & AWS</h3>
+                        <p>Learn cloud architecture and AWS services</p>
+                        <div class="course-meta">
+                            <span>⏱ 50 hours</span>
+                            <span>👥 1.2K students</span>
+                        </div>
+                        <button class="btn btn-primary">Enroll Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subjects Section -->
+    <section id="subjects" class="subjects">
+        <div class="container">
+            <h2 class="section-title">Browse by Subject</h2>
+            <div class="subject-grid">
+                <div class="subject-card">
+                    <div class="subject-icon">💻</div>
+                    <h3>Programming</h3>
+                    <p>120 Courses</p>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-icon">📊</div>
+                    <h3>Business</h3>
+                    <p>85 Courses</p>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-icon">🎨</div>
+                    <h3>Design</h3>
+                    <p>95 Courses</p>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-icon">📱</div>
+                    <h3>Marketing</h3>
+                    <p>70 Courses</p>
+                </div>
+                <div class="subject-card">
+                    <div class="subject-icon">🔬</div>
+                    <h3>Science</h3>
+                    <p>60 Courses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Learning Section -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2 class="section-title">Video Learning Library</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=300&h=200&fit=crop" alt="JavaScript">
+                        <span class="video-duration">15:30</span>
+                    </div>
+                    <h3>Introduction to JavaScript</h3>
+                    <p>Learn the basics of JavaScript programming</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?w=300&h=200&fit=crop" alt="CSS Tutorial">
+                        <span class="video-duration">22:45</span>
+                    </div>
+                    <h3>CSS Flexbox Tutorial</h3>
+                    <p>Master responsive layouts with Flexbox</p>
+                </div>
+                <div class="video-card">
+                    <div class="video-thumbnail">
+                        <img src="https://images.unsplash.com/photo-1526379095098-d400fd0bf935?w=300&h=200&fit=crop" alt="Python Programming">
+                        <span class="video-duration">18:20</span>
+                    </div>
+                    <h3>Python for Beginners</h3>
+                    <p>Start your Python programming journey</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions? We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p class="contact-desc">Feel free to reach out through any of these channels</p>
+                    <div class="info-item">
+                        <div class="info-icon">📧</div>
+                        <div class="info-details">
+                            <strong>Email</strong>
+                            <p>prabhuprasadsahoo514@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div class="info-details">
+                            <strong>Phone</strong>
+                            <p>+91 98765 43210</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div class="info-details">
+                            <strong>Address</strong>
+                            <p>Odisha, Cuttack</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h4>Follow Us</h4>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon">🌐</a>
+                            <a href="#" class="social-icon">💼</a>
+                            <a href="#" class="social-icon">🐦</a>
+                            <a href="#" class="social-icon">📘</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <h3>Send us a Message</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Login Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Student Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email Address" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <p class="form-footer">Don't have an account? <a href="#">Sign up</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EduLearn</h3>
+                    <p>Empowering learners worldwide with quality education.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 EduLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
